@@ -12,17 +12,17 @@
 
 
 <video width="720" height="1280" controls>
-  <source src="assets\video_2025-10-05_21-19-27.mp4" type="video/mp4">
+  <source src="assets/video_2025-10-05_21-19-27.mp4" type="video/mp4">
 </video>
 
 <video width="464" height="848" controls>
-  <source src="assets\video_2025-10-05_21-30-18.mp4" type="video/mp4">
+  <source src="assets/video_2025-10-05_21-30-18.mp4" type="video/mp4">
 </video>
 
-![img](assets\photo_2025-09-09_20-23-43.jpg)
+![img](assets/photo_2025-09-09_20-23-43.jpg)
 
-![img](assets\photo_2025-08-19_00-23-40.jpg)
+![img](assets/photo_2025-08-19_00-23-40.jpg)
 
-![img](assets\photo_2025-08-01_18-17-14.jpg)
+![img](assets/photo_2025-08-01_18-17-14.jpg)
 
-![img](assets\photo_2025-07-14_12-07-48.jpg)
+![img](assets/photo_2025-07-14_12-07-48.jpg)
