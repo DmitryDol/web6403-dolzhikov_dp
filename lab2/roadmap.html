@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Backend Developer - Roadmap.track</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Roadmap<span class="accent">.track</span></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Публичные роадмапы</a></li>
+                    <li><a href="my_roadmaps.html">Мои роадмапы</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-secondary">Войти</a>
+                    <a href="#" class="btn btn-primary">Регистрация</a>
+                    <img src="assets/stock_avatar.png" alt="Users" class="stat-avatar">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content roadmap-page">
+        <div class="container">
+            <div class="roadmap-header">
+                <div class="breadcrumbs">
+                    <a href="index.html">Главная</a> / <a href="index.html">Публичные роадмапы</a> / Python Backend Developer
+                </div>
+                
+                <div class="roadmap-info">
+                    <h2>Python Backend Developer</h2>
+                    <p class="roadmap-meta">
+                        <span class="difficulty-badge beginner">Начинающий</span>
+                        <span>Автор: <strong>Dmitry Dolzhikov</strong></span>
+                        <span>Обновлено: 15.10.2025</span>
+                    </p>
+                    <p class="roadmap-description">
+                        Этот роадмап охватывает все необходимые навыки для становления профессиональным Python backend разработчиком. 
+                        От основ языка до продвинутых концепций микросервисной архитектуры и deployment.
+                    </p>
+                    <div class="action-buttons">
+                        <a href="#" class="btn btn-primary">Сохранить себе</a>
+                        <a href="#" class="btn btn-secondary">Поделиться</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="roadmap-content">
+                <aside class="roadmap-sidebar">
+                    <h3>Прогресс</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 35%"></div>
+                    </div>
+                    <p class="progress-text">8 из 24 карточек завершено</p>
+                    
+                    <h3>Содержание</h3>
+                    <ul class="roadmap-toc">
+                        <li><a href="#basics">Основы Python</a></li>
+                        <li><a href="#web">Web фреймворки</a></li>
+                        <li><a href="#databases">Базы данных</a></li>
+                        <li><a href="#api">API разработка</a></li>
+                        <li><a href="#testing">Тестирование</a></li>
+                        <li><a href="#deployment">Deployment</a></li>
+                    </ul>
+                </aside>
+
+                <div class="roadmap-main">
+                    <section id="basics" class="roadmap-section">
+                        <h3 class="section-heading">Основы Python</h3>
+                        
+                        <div class="card-item completed">
+                            <div class="card-status">✓</div>
+                            <div class="card-content">
+                                <h4>Синтаксис и структуры данных</h4>
+                                <p>Изучите базовые типы данных, операторы, условия, циклы, функции и основные структуры данных в Python</p>
+                                <div class="card-links">
+                                    <a href="https://docs.python.org/3/">Документация Python</a>
+                                    <a href="https://stepik.org/course/100707">Stepik</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item completed">
+                            <div class="card-status">✓</div>
+                            <div class="card-content">
+                                <h4>ООП в Python</h4>
+                                <p>Классы, объекты, наследование, полиморфизм, инкапсуляция, магические методы</p>
+                                <div class="card-links">
+                                    <a href="https://youtube.com/playlist?list=PLA0M1Bcd0w8zPwP7t-FgwONhZOHt9rz9E">YouTube</a>
+                                    <a href="https://stepik.org/course/116336/promo">Stepik</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item in-progress">
+                            <div class="card-status">→</div>
+                            <div class="card-content">
+                                <h4>Модули и пакеты</h4>
+                                <p>Импорт модулей, создание собственных пакетов, виртуальные окружения, pip и requirements.txt</p>
+                                <div class="card-links">
+                                    <a href="#">Python Packaging</a>
+                                    <a href="#">Virtual Environments</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-status"></div>
+                            <div class="card-content">
+                                <h4>Работа с файлами и исключениями</h4>
+                                <p>Чтение и запись файлов, обработка исключений, контекстные менеджеры</p>
+                                <div class="card-links">
+                                    <a href="#">File Handling</a>
+                                    <a href="#">Exception Handling</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="web" class="roadmap-section">
+                        <h3 class="section-heading">Web фреймворки</h3>
+                        
+                        <div class="card-item">
+                            <div class="card-status"></div>
+                            <div class="card-content">
+                                <h4>FastAPI основы</h4>
+                                <p>Создание REST API, роутеры, dependency injection, валидация с Pydantic</p>
+                                <div class="card-links">
+                                    <a href="https://fastapi.tiangolo.com/">FastAPI Docs</a>
+                                    <a href="#">FastAPI Tutorial</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section id="databases" class="roadmap-section">
+                        <h3 class="section-heading">Базы данных</h3>
+                        
+                        <div class="card-item">
+                            <div class="card-status"></div>
+                            <div class="card-content">
+                                <h4>SQL и PostgreSQL</h4>
+                                <p>Запросы SELECT, JOIN, индексы, транзакции, нормализация данных</p>
+                                <div class="card-links">
+                                    <a href="https://stepik.org/course/63054">Stepik</a>
+                                    <a href="https://sql-ex.ru/">Практика SQL</a>
+                                    <a href="https://sql-academy.org/ru/trainer?difficulty=hard&difficulty=medium">Задачи с собеседований</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-item">
+                            <div class="card-status"></div>
+                            <div class="card-content">
+                                <h4>SQLAlchemy ORM</h4>
+                                <p>Модели, сессии, миграции с Alembic, relationships, query optimization</p>
+                                <div class="card-links">
+                                    <a href="#">SQLAlchemy Docs</a>
+                                    <a href="#">Alembic Tutorial</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Лабораторная работа №2 по Web-программированию</p>
+        </div>
+    </footer>
+</body>
+</html>
