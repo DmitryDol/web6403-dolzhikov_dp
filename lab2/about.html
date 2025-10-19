@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте - Roadmap.track</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Roadmap<span class="accent">.track</span></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Публичные роадмапы</a></li>
+                    <li><a href="my_roadmaps.html">Мои роадмапы</a></li>
+                    <li><a href="about.html" class="active">О проекте</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-secondary">Войти</a>
+                    <a href="#" class="btn btn-primary">Регистрация</a>
+                    <img src="assets/stock_avatar.png" alt="Users" class="stat-avatar">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content about-page">
+        <div class="container">
+            <section class="about-hero">
+                <h2>О проекте Roadmap.track</h2>
+                <p class="lead">
+                    Платформа для создания, отслеживания и обмена карьерными роадмапами в IT-индустрии
+                </p>
+            </section>
+
+            <section class="about-content">
+                <div class="about-section">
+                    <h3>Миссия проекта</h3>
+                    <p>
+                        Roadmap.track создан для того, чтобы помочь разработчикам структурировать свой путь обучения 
+                        и профессионального роста. Мы предоставляем инструменты для планирования карьеры, отслеживания 
+                        прогресса и обмена опытом с сообществом.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3>Возможности платформы</h3>
+                    <ul class="features-list">
+                        <li>Доступ к проверенным роадмапам по различным специальностям</li>
+                        <li>Создание собственных роадмапов с детальной структурой</li>
+                        <li>Отслеживание прогресса выполнения карточек и целых роадмапов</li>
+                        <li>Сохранение и адаптация публичных роадмапов под свои нужды</li>
+                        <li>Обмен роадмапами с другими пользователями</li>
+                    </ul>
+                </div>
+
+                <div class="about-section">
+                    <h3>Технический стек уже готовой части</h3>
+                    <table class="tech-table">
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Компонент</th>
+                                <th style="text-align: left;">Технология</th>
+                                <th style="text-align: left;">Описание</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align: left;">Frontend</td>
+                                <td style="text-align: left;">HTML, CSS, React</td>
+                                <td style="text-align: left;">Пользовательский интерфейс</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Backend</td>
+                                <td style="text-align: left;">Python FastAPI</td>
+                                <td style="text-align: left;">REST API и бизнес-логика</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">База данных</td>
+                                <td style="text-align: left;">PostgreSQL</td>
+                                <td style="text-align: left;">Хранение данных</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Хранилище файлов</td>
+                                <td style="text-align: left;">MinIO (Java)</td>
+                                <td style="text-align: left;">Изображения и медиафайлы</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Кэширование</td>
+                                <td style="text-align: left;">Redis</td>
+                                <td style="text-align: left;">Сессии и токены</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="about-section">
+                    <h3>Технический стек планируемых улучшений</h3>
+                    <table class="tech-table">
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Компонент</th>
+                                <th style="text-align: left;">Технология</th>
+                                <th style="text-align: left;">Описание</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align: left;">Frontend</td>
+                                <td style="text-align: left;">HTML, CSS, React</td>
+                                <td style="text-align: left;">Полная переработка пользовательского интерфейса</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Backend</td>
+                                <td style="text-align: left;">Python FastAPI</td>
+                                <td style="text-align: left;">Добавление нового функционала. Такого как: интеграция OAuth и многое, многое другое)</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">AI интеграция</td>
+                                <td style="text-align: left;">Perplexity API</td>
+                                <td style="text-align: left;">Рекомендации и генерация контента</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="about-section">
+                    <h3>История разработки проекта</h3>
+                    <p>
+                        Backend проекта был разработан в рамках лабораторных работ по дисциплине "Технологии сетевого программирования" <a href="https://github.com/DmitryDol/tcp_labs">GitHub репозиторий</a>. 
+                        Frontend проекта перерабатывается в рамках лабораторных работ по дисциплине "Web-программирование". 
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3>Связаться с нами</h3>
+                    <p>
+                        Если у вас есть вопросы, предложения или вы хотите внести вклад в развитие проекта, 
+                        свяжитесь с нами через <a href="https://github.com/DmitryDol/web6403-dolzhikov_dp">GitHub репозиторий</a> или напишите на 
+                        <a href="mailto:dmdolzhikov@gmail.com">dmdolzhikov@gmail.com</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Лабораторная работа №2 по Web-программированию</p>
+        </div>
+    </footer>
+</body>
+</html>
